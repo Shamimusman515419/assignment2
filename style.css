@@ -1,0 +1,589 @@
+/* header section  */
+
+
+header {
+    padding: 10px 150px;
+    background: #FFF4E7;
+}
+
+nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h3 {
+    font-size: 35px;
+    color: blue;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+nav ul li a {
+    font-size: 19px;
+    font-weight: 600;
+    color: black;
+    transition: 0.5s;
+    text-decoration: none;
+}
+nav ul li a:hover{
+     color: #FF900E;
+}
+/* banner section  */
+
+.banner {
+    text-align: center;
+}
+
+.banner-text {
+    max-width: 700px;
+    margin: 25px 2px;
+    margin: auto;
+
+}
+
+.banner-text h1 {
+    font-size: 45px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.banner-text p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.banner-text button {
+    outline: none;
+    border: none;
+    background-color: #FF900E;
+    color: #ffffffff;
+    padding: 10px 28px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 12px;
+}
+
+/* bannerb img  */
+.bannerimg {
+    margin: 25px 0;
+}
+
+.bannerimg img {
+    width: 100%;
+}
+
+
+
+/* about section  */
+
+main {
+    padding: 10px 120px;
+}
+
+.aboutsection {
+    padding: 10px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-img {
+    padding-right: 15px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+/* about-text secrion  */
+
+.about-text {
+    margin-left: 40px;
+
+}
+
+.about-text h1 {
+    font-size: 35px;
+
+    font-weight: 600;
+}
+
+.about-text h3 {
+    font-size: 30px;
+    color: #FF900E;
+    font-weight: 600;
+}
+
+.about-text h1 span {
+    color: red;
+    font-size: 30px;
+
+}
+
+.about-text p {
+    font-size: 18px;
+
+    line-height: 30px;
+}
+
+.about-text button {
+    outline: none;
+    border: none;
+    background-color: #FF900E;
+    color: #ffffffff;
+    padding: 10px 28px;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+
+/* Features section  */
+.Features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.Feater-img img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+    /* banner section  */
+    nav {
+        display: block;
+    }
+
+    header {
+        padding: 10px 5px;
+    }
+
+    ul {
+        display: block !important;
+    }
+
+    /* about section  */
+    main {
+        padding: 10px 5px;
+    }
+
+    .about-img {
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .aboutsection {
+        display: block;
+    }
+
+    .about-img {
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* Feater section  */
+    .Features {
+        display: block;
+    }
+}
+
+.Features-text {
+    padding: 5px 10px;
+}
+
+.Features-banner {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.Features-banner .Feater-img {
+    position: relative;
+}
+
+.Features-banner img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.button-banner {
+    background: #FF900E;
+    position: absolute;
+    bottom: 0;
+    color: #ffffffff;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 250px;
+    left: -4%;
+    height: 100px;
+    border-radius: 15px;
+
+}
+
+.button-banner h1 {
+    font-size: 35px;
+}
+
+.button-banner p {
+    font-weight: 600;
+    font-size: 19px;
+}
+
+
+
+.features-box-style {
+    padding: 5px 10px;
+    margin: 15px 0;
+
+    border-radius: 19px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.features-box-style h4 {
+    font-size: 30px;
+    font-weight: 600;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-left: 7px solid #FF900E;
+
+}
+
+.features-box-style p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.Features-text .features-box {
+    padding: 2px 10px;
+    margin: 15px 0;
+    border-radius: 19px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.Features-text .features-box h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Features-text .features-box p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+
+/* <!-- Some Facts section  --> */
+.Some-Facts {
+    padding: 45px 0;
+}
+.some-factoe-text{
+     max-width: 500px;
+}
+.Some-Facts .some-factoe-text h4{
+     font-size: 45px;
+     color: black;
+   
+}
+.Some-Facts .some-factoe-text p{
+    line-height: 30px;
+     font-size: 19px;
+     color: black;
+  
+}
+
+.some-foctoritems {
+    display: flex;
+    margin: 25px 0;
+    align-items: center;
+    text-align: center;
+ justify-content: space-around;
+}
+.some-foctoritems .seme-item {
+     
+    margin: 15px 0 ;
+       display: flex;
+       position: relative;
+       text-align: center;
+       flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     border: 1px solid black;
+     padding: 10px ;
+     color: black;
+     width: 170px;
+     height: 150px;
+     transition: 0.4s ease-in-out;
+     border-radius: 15px;
+}
+.some-foctoritems .seme-item:hover{
+     transform: rotate(90deg);
+     
+}
+
+.seme-item img{
+    position: relative;
+    top: 20px; 
+  }
+.seme-item h1{
+    position: relative; 
+    font-size: 35px;
+    top: 5px;
+    color: rgb(27, 26, 26);
+    
+  }
+.seme-item p{
+  position: relative; 
+  font-size: 18px;
+  font-weight: 600;
+    color: rgb(27, 26, 26);
+    bottom: 30px;
+  }
+
+
+
+  /* <!-- Our Sponspors  --> */
+
+
+  .ponspore-logo{
+     display: flex;
+     align-items: center;
+     margin: 25px 0;
+     justify-content: space-around;
+
+  }
+  .ponspore-logo img{
+     padding: 25px 2px;
+     cursor: pointer;
+  }
+.our-ponspore-text{
+     text-align: center;
+     margin: 25px auto;
+     max-width: 500px;
+     
+}
+.our-ponspore-text h1{
+     font-size: 35px;
+     font-weight: bold;
+     color: rgb(29, 27, 27);
+}
+.our-ponspore-text p{
+     font-size: 18px;
+    line-height: 30px;
+     color: rgb(29, 27, 27);
+   
+}
+
+/* contact section  */
+.contact-section{
+     display: flex;
+     padding: 29px 0;
+     align-items: center;
+     justify-content: space-between;
+
+}
+
+/* footer section  */
+footer{
+     padding: 10px 150px;
+}
+.footer-text{
+     background: #FFF4E7;
+     padding: 15px ;
+     text-align: center;
+     border-radius: 15px;
+}
+.footer-text p{ 
+    font-size: 22px;
+    color: rgb(24, 23, 23);
+    font-weight: bold;
+}
+
+.contact-form{
+     margin: 25px ;
+
+}
+.contact-form .inputbox{
+     width: 100%;
+     margin: 10px 0;
+     position: relative;
+}
+.contact-form .inputbox label{
+     font-size: 22px;
+     margin: 5px 0;
+     font-weight: bold;
+}
+.contact-form .inputbox input ,textarea{
+ border: none;
+outline: none;
+font-size: 19px;
+background: transparent;
+width: 100%;
+border-bottom:2px solid rgb(255, 255, 255) ;
+margin: 20px 0;
+}
+.contact-form input[type=submit]{
+      font-size: 29px;
+      outline: none;
+      border: none;
+      padding:2px 10px ;
+      border-radius: 10px;
+      width: 150px;
+      background: rgb(70, 36, 87);
+      color: white;
+}
+
+
+/* contact-text  */
+.contact-text{
+     margin: 20px 0;
+}
+.context-text-box {
+     display: flex;
+     margin: 39px 0;
+     align-items: center;
+}
+.context-text-box i{ 
+    font-size: 40px;
+    margin: 0 10px;
+
+}
+.context-text-box p{ 
+    font-size: 20px;
+    margin: 0 10px;
+
+}
+
+/* contact section  */
+.contact-section{
+    display: flex;
+    color: #ffffffff;
+    background: url(./images/parallax2.png);
+    width: 100%;
+    height: 100%;
+     justify-content: space-around;
+    background-size: contain;
+ 
+    
+}
+
+
+
+
+/* mediea end  */
+@media screen and (max-width:768px) {
+    .some-foctoritems {
+    display: block;
+         text-align: center;
+    }
+     .ponspore-logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer{
+        padding: 5px 2px;
+   }
+   .contact-section{
+    flex-direction: column;
+   }
+
+   
+}
+
+@media screen and (max-width:768px) and (max-width:992px) {
+    nav {
+        display: block;
+        text-align: start;
+    }
+
+    ul {
+        display: block !important;
+        margin-left: -20px;
+    }
+
+    header {
+        padding: 10px 5px;
+    }
+
+    /* about section  */
+
+    main {
+        padding: 10px 5px;
+    }
+
+    .about-text {
+
+        margin-left: 2px;
+    }
+
+    .aboutsection {
+        display: block;
+    }
+
+    .Features {
+        display: block;
+    }
+    /* <!-- Some Facts section  --> */
+
+    .some-foctoritems {
+        display: block;
+             text-align: center;
+        }
+
+ /* <!-- Our Sponspors  --> */
+ .ponspore-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+footer{
+    padding: 5px 2px;
+}
+.contact-section{
+    flex-direction: column;
+   }
+
+}
+
+@media screen and (min-width:992px) {}
