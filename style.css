@@ -38,9 +38,11 @@ nav ul li a {
     transition: 0.5s;
     text-decoration: none;
 }
-nav ul li a:hover{
-     color: #FF900E;
+
+nav ul li a:hover {
+    color: #FF900E;
 }
+
 /* banner section  */
 
 .banner {
@@ -317,194 +319,216 @@ main {
 .Some-Facts {
     padding: 45px 0;
 }
-.some-factoe-text{
-     max-width: 500px;
+
+.some-factoe-text {
+    max-width: 500px;
 }
-.Some-Facts .some-factoe-text h4{
-     font-size: 45px;
-     color: black;
-   
+
+.Some-Facts .some-factoe-text h4 {
+    font-size: 45px;
+    color: black;
+
 }
-.Some-Facts .some-factoe-text p{
+
+.Some-Facts .some-factoe-text p {
     line-height: 30px;
-     font-size: 19px;
-     color: black;
-  
+    font-size: 19px;
+    color: black;
+
 }
 
 .some-foctoritems {
     display: flex;
     margin: 25px 0;
+    width: 100%;
     align-items: center;
     text-align: center;
- justify-content: space-around;
-}
-.some-foctoritems .seme-item {
-     
-    margin: 15px 0 ;
-       display: flex;
-       position: relative;
-       text-align: center;
-       flex-direction: column;
-    align-items: center;
-    justify-content: center;
-     border: 1px solid black;
-     padding: 10px ;
-     color: black;
-     width: 170px;
-     height: 150px;
-     transition: 0.4s ease-in-out;
-     border-radius: 15px;
-}
-.some-foctoritems .seme-item:hover{
-     transform: rotate(90deg);
-     
+    justify-content: space-around;
 }
 
-.seme-item img{
+.some-foctoritems .seme-item {
+
+    display: flex;
     position: relative;
-    top: 20px; 
-  }
-.seme-item h1{
-    position: relative; 
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    width: 170px;
+    margin: 25px auto;
+    height: 150px;
+    transition: 0.4s ease-in-out;
+    border-radius: 15px;
+}
+
+.some-foctoritems .seme-item:hover {
+    transform: rotate(90deg);
+
+}
+
+.seme-item img {
+    position: relative;
+    top: 20px;
+}
+
+.seme-item h1 {
+    position: relative;
     font-size: 35px;
     top: 5px;
     color: rgb(27, 26, 26);
-    
-  }
-.seme-item p{
-  position: relative; 
-  font-size: 18px;
-  font-weight: 600;
+
+}
+
+.seme-item p {
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
     color: rgb(27, 26, 26);
     bottom: 30px;
-  }
-
-
-
-  /* <!-- Our Sponspors  --> */
-
-
-  .ponspore-logo{
-     display: flex;
-     align-items: center;
-     margin: 25px 0;
-     justify-content: space-around;
-
-  }
-  .ponspore-logo img{
-     padding: 25px 2px;
-     cursor: pointer;
-  }
-.our-ponspore-text{
-     text-align: center;
-     margin: 25px auto;
-     max-width: 500px;
-     
 }
-.our-ponspore-text h1{
-     font-size: 35px;
-     font-weight: bold;
-     color: rgb(29, 27, 27);
+
+
+
+/* <!-- Our Sponspors  --> */
+
+
+.ponspore-logo {
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+    justify-content: space-around;
+
 }
-.our-ponspore-text p{
-     font-size: 18px;
+
+.ponspore-logo img {
+    padding: 25px 2px;
+    cursor: pointer;
+}
+
+.our-ponspore-text {
+    text-align: center;
+    margin: 25px auto;
+    max-width: 500px;
+
+}
+
+.our-ponspore-text h1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(29, 27, 27);
+}
+
+.our-ponspore-text p {
+    font-size: 18px;
     line-height: 30px;
-     color: rgb(29, 27, 27);
-   
+    color: rgb(29, 27, 27);
+
 }
 
 /* contact section  */
-.contact-section{
-     display: flex;
-     padding: 29px 0;
-     align-items: center;
-     justify-content: space-between;
+.contact-section {
+    display: flex;
+    padding: 29px 0;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
 /* footer section  */
-footer{
-     padding: 10px 150px;
+footer {
+    padding: 10px 150px;
 }
-.footer-text{
-     background: #FFF4E7;
-     padding: 15px ;
-     text-align: center;
-     border-radius: 15px;
+
+.footer-text {
+    background: #FFF4E7;
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
 }
-.footer-text p{ 
+
+.footer-text p {
     font-size: 22px;
     color: rgb(24, 23, 23);
     font-weight: bold;
 }
 
-.contact-form{
-     margin: 25px ;
+.contact-form {
+    margin: 25px;
 
 }
-.contact-form .inputbox{
-     width: 100%;
-     margin: 10px 0;
-     position: relative;
+
+.contact-form .inputbox {
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
 }
-.contact-form .inputbox label{
-     font-size: 22px;
-     margin: 5px 0;
-     font-weight: bold;
+
+.contact-form .inputbox label {
+    font-size: 22px;
+    margin: 5px 0;
+    font-weight: bold;
 }
-.contact-form .inputbox input ,textarea{
- border: none;
-outline: none;
-font-size: 19px;
-background: transparent;
-width: 100%;
-border-bottom:2px solid rgb(255, 255, 255) ;
-margin: 20px 0;
+
+.contact-form .inputbox input,
+textarea {
+    border: none;
+    outline: none;
+    font-size: 19px;
+    background: transparent;
+    width: 100%;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin: 20px 0;
 }
-.contact-form input[type=submit]{
-      font-size: 29px;
-      outline: none;
-      border: none;
-      padding:2px 10px ;
-      border-radius: 10px;
-      width: 150px;
-      background: rgb(70, 36, 87);
-      color: white;
+
+.contact-form input[type=submit] {
+    font-size: 29px;
+    outline: none;
+    border: none;
+    padding: 2px 10px;
+    border-radius: 10px;
+    width: 150px;
+    background: rgb(70, 36, 87);
+    color: white;
 }
 
 
 /* contact-text  */
-.contact-text{
-     margin: 20px 0;
+.contact-text {
+    margin: 20px 0;
 }
+
 .context-text-box {
-     display: flex;
-     margin: 39px 0;
-     align-items: center;
+    display: flex;
+    margin: 39px 0;
+    align-items: center;
 }
-.context-text-box i{ 
+
+.context-text-box i {
     font-size: 40px;
     margin: 0 10px;
 
 }
-.context-text-box p{ 
+
+.context-text-box p {
     font-size: 20px;
     margin: 0 10px;
 
 }
 
 /* contact section  */
-.contact-section{
+.contact-section {
     display: flex;
     color: #ffffffff;
     background: url(./images/parallax2.png);
     width: 100%;
     height: 100%;
-     justify-content: space-around;
+    justify-content: space-around;
     background-size: contain;
- 
-    
+
+
 }
 
 
@@ -513,22 +537,25 @@ margin: 20px 0;
 /* mediea end  */
 @media screen and (max-width:768px) {
     .some-foctoritems {
-    display: block;
-         text-align: center;
+        display: block;
+        text-align: center;
     }
-     .ponspore-logo{
+
+    .ponspore-logo {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    footer{
-        padding: 5px 2px;
-   }
-   .contact-section{
-    flex-direction: column;
-   }
 
-   
+    footer {
+        padding: 5px 2px;
+    }
+
+    .contact-section {
+        flex-direction: column;
+    }
+
+
 }
 
 @media screen and (max-width:768px) and (max-width:992px) {
@@ -564,25 +591,28 @@ margin: 20px 0;
     .Features {
         display: block;
     }
+
     /* <!-- Some Facts section  --> */
 
     .some-foctoritems {
         display: block;
-             text-align: center;
-        }
+        text-align: center;
+    }
 
- /* <!-- Our Sponspors  --> */
- .ponspore-logo{
-    display: flex;
-    flex-direction: column;
-    align-items: center
-}
-footer{
-    padding: 5px 2px;
-}
-.contact-section{
-    flex-direction: column;
-   }
+    /* <!-- Our Sponspors  --> */
+    .ponspore-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    footer {
+        padding: 5px 2px;
+    }
+
+    .contact-section {
+        flex-direction: column;
+    }
 
 }
 
